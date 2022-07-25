@@ -1,0 +1,163 @@
+/* CSS Reset */
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: whitesmoke;
+}
+/* Navbar-Section */
+.navbar {
+  margin-top: 16px;
+  display: flex;
+}
+.logo {
+  margin: 15px 40px;
+}
+.logo img {
+  height: 40px;
+  width: 130px;
+}
+#list {
+  display: flex;
+  list-style: none;
+  margin: 15px 2px;
+  margin-left: 120px;
+  align-items: center;
+}
+.list-item {
+}
+.list-item a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 35px;
+  font-size: 25px;
+}
+.list-item a:hover {
+  cursor: pointer;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+}
+.list-item a.active {
+  border-bottom: 2px solid black;
+  font-weight: bold;
+}
+#icons-searchbar {
+  margin: 15px 0px;
+  margin-left: 120px;
+}
+#icons-searchbar input {
+  margin: 1px 30px;
+  padding: 2px 15px;
+  font-size: 20px;
+  border: 2px solid 3px;
+  border-radius: 12px;
+  height: 30px;
+  width: 40%;
+}
+
+#global-img {
+  display: inline-block;
+  position: absolute;
+  left: 58vw;
+  top: 19vh;
+}
+#global-img img {
+  height: 60px;
+  width: 50px;
+}
+
+/* photo-heading-section */
+
+#photo-heading-section {
+  display: flex;
+  margin-top: 10vh;
+}
+#herophoto-section {
+  height: 75vh;
+  width: 40%;
+  margin-left: 55px;
+}
+#herophoto-section #heroimg {
+  position: relative;
+  width: 80vh;
+  height: 70vh;
+}
+#herophoto-section #squareimg {
+  position: absolute;
+  left: 17vw;
+  top: 54vh;
+  height: 50vh;
+  width: 30%;
+}
+/* heading-section-icons */
+
+#heading-section-icons {
+  margin-left: 60px;
+  width: 50%;
+  height: 80vh;
+}
+#heading-section-icons #star-img {
+  display: inline-block;
+  position: relative;
+  left: 40vw;
+}
+#heading-section-icons #star-img img {
+  height: 50px;
+  width: 50px;
+}
+#heading-section {
+  position: relative;
+  top: 5px;
+  text-align: center;
+}
+#heading-section h1 {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 5px;
+  margin: 5px auto;
+  font-size: 55px;
+}
+#heading-section p {
+  margin: 25px auto;
+  font-family: monospace;
+  color: black;
+  font-size: 15px;
+}
+/* button-section */
+
+#heading-section .btn {
+  border: 2px solid black;
+  font-size: 16px;
+  border-radius: 10px;
+  margin: 30px 10px;
+  padding: 5px 30px;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 2px;
+}
+#heading-section button.active {
+  color: aliceblue;
+  background-color: black;
+}
+/* contactUs-section */
+
+#contactus-section {
+  text-align: center;
+  margin-top: 50px;
+  display: flex;
+}
+#star-img2 img {
+  margin-left: 40px;
+  height: 40px;
+  width: 35px;
+}
+#contact-img-section {
+  margin: 5px auto;
+}
+#contactus-section h2 {
+  font-size: 25px;
+  margin: 0px 30px;
+}
+#contact-img-section .contactimg {
+  margin: 5px 0px;
+  padding: 10px 10px;
+  width: 35px;
+  height: 30px;
+}
