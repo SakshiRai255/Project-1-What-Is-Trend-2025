@@ -1,6 +1,6 @@
-# This Is Dummy Project
+# This is my first landing page created for learning front end designing using HTML and CSS.
 
-## This Poject used HTML CSS
+## Tech Stack Used:-
 
-    This is landing page and this is only for learning not other thing. iNureon gave it to me assignment.
-    This is my first project.
+-  #### HTML
+-  #### CSS
